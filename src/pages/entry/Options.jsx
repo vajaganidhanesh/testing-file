@@ -11,7 +11,6 @@ export default function Options({ optionType }) {
     axios
       .get(`http://localhost:3030/${optionType}`)
       .then((response) => {
-        console.log(response.data);
         setItems(response.data);
       })
       .catch((err) => {
