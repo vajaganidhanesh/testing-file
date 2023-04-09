@@ -1,6 +1,6 @@
 import Options from "./Options";
 
-function OrderEntry() {
+export default function OrderEntry() {
   return (
     <div>
       <Options optionType='scoops' />
@@ -8,5 +8,3 @@ function OrderEntry() {
     </div>
   );
 }
-
-export default OrderEntry;
